@@ -536,5 +536,12 @@ entity-effect-guidebook-add-reagent-to-bloodstream =
         [1] Injects
         *[other] inject
     } {$quantity} of {$reagent} directly into the bloodstream
+
+entity-effect-disarm =
+    { $chance ->
+        [1] Disarms
+        *[other] disarms
+    } the entity
+
 entity-effect-guidebook-emp-reaction-effect = Triggers an electromagnetic pulse on impact.
 entity-effect-guidebook-flash-reaction-effect = Emits a blinding flash on impact.
